@@ -4,13 +4,13 @@ const Symbol = document.querySelector("#symbol")
 
 
 Formula.addEventListener ("input", change)
-
-
+let form = Formula.value
+Result.textContent = form
 function change () {
-    let form = Formula.value
+    form = Formula.value
     Result.textContent = form
 
-    if (form == "The length is ...") {
+    if (form == "The length") {
         Symbol.textContent = "L"
     } else if (form == "The Width") {
         Symbol.textContent = "W"
