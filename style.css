@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #afe1f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container {
+  width: 280px;
+  height: 520px;
+  margin-top: 2em;
+  background-color: rgba(229, 238, 235, 0.91);
+  border-radius: 10px;
+}
+
+body .container .main-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container h4 {
+  margin: 40px 0 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
+body .container #formula-select {
+  margin: 10px 0 0 45px;
+  width: 150px;
+  height: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  background-color: rgba(124, 130, 184, 0.23);
+  text-align: justify;
+  border-radius: 3px;
+}
+
+body .container .result-box {
+  width: 220px;
+  height: 50px;
+  background-color: rgba(124, 130, 184, 0.23);
+  margin: 70px 0 0 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+body .container .box {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(124, 130, 184, 0.23);
+  margin: 70px 0 0 91px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+body .container .box #symbol {
+  font-size: 60px;
+}
+/*# sourceMappingURL=style.css.map */
