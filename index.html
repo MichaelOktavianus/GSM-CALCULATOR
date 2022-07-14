@@ -12,18 +12,45 @@
         <h2 class="main-text">GSM CALCULATOR</h2>
         <h4>What you're looking for :</h4>
         <select name="Type" id="formula-select">
-            <option value="The length">Lenght</option>
-            <option value="The Width">Width</option>
-            <option value="The Height">Height</option>
+            <option value="GSM">GSM</option>
+            <option value="Weight">Weight</option>
+            <option value="Length">Length</option>
+            <option value="Width">Width</option>
+            
         </select>
-
-        <div class="result-box">
-            <h1 id="result"></h1>
+        <h2 id="text1">Weight</h2>
+        <div class="field1">
+            <input type="number" id="input1">
+            <select name="Unit" id="M-unit1">
+                <option id="a1" value="gram">Gram</option>
+                <option id="a2" value="kilogram">Kilogram</option>
+            </select>
+        </div>
+        
+        <h2 id="text2">Length</h2>
+        <div class="field2">
+            <input type="number" id="input2">
+            <select name="Unit" id="M-unit2">
+                <option id="b1" value="meter">Meter</option>
+                <option id="b2" value="centimeter">Centimeter</option>
+            </select>
+        </div>
+        
+        <h2 id="text3">Width</h2>
+        <div class="field3">
+            <input type="number" id="input3">
+            <select name="Unit" id="M-unit3">
+                <option id="c1" value="meter">Meter</option>
+                <option id="c2" value="centimeter">Centimeter</option>
+            </select>
+        </div>
+        
+        <button id="result-btn">CALCULATE</button> 
+        
+        <div id="result-box">
+            ?
         </div>
 
-        <div class="box">
-            <h1 id="symbol">?</h1>
-        </div>
     </div>
 
     <script src="main.js"></script>
