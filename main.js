@@ -101,33 +101,35 @@ function calculate () {
         alert("Please input all the fields")
     } else {
         window.scrollTo(0,200)
+
+        let result
+        let Unit
+
+        if (selector == "GSM") {
+            result = (i1 / (i2 * i3))
+            
+            Unit = "GSM"
+
+        } else if (selector == "Weight") {
+            result = (i1 * (i2 * i3))
+            
+            Unit = "g"
+
+        } else if (selector == "Length") {
+            result = ((i2 / i1) / i3)
+            
+            Unit = "m"
+
+        } else if (selector == "Width") {
+            result = ((i2 / i1) / i3)
+            
+            Unit = "m"
+        }
+
+        resultBox.textContent = `${Math.floor(result * 100) / 100} ${Unit}`
+
     }
 
-    let result
-    let Unit
-
-    if (selector == "GSM") {
-        result = (i1 / (i2 * i3))
-        
-        Unit = "GSM"
-
-    } else if (selector == "Weight") {
-        result = (i1 * (i2 * i3))
-        
-        Unit = "g"
-
-    } else if (selector == "Length") {
-        result = ((i2 / i1) / i3)
-        
-        Unit = "m"
-
-    } else if (selector == "Width") {
-        result = ((i2 / i1) / i3)
-        
-        Unit = "m"
-    }
-
-    resultBox.textContent = `${Math.floor(result * 100) / 100} ${Unit}`
     
 }
  

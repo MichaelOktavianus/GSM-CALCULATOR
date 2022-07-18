@@ -53,6 +53,7 @@ body .container #formula-select {
   background-color: rgba(124, 130, 184, 0.23);
   text-align: justify;
   border-radius: 3px;
+  border: 1px black solid;
 }
 
 body .container #text1, body .container #text2, body .container #text3 {
@@ -70,6 +71,8 @@ body .container #input1, body .container #input2, body .container #input3 {
   font-size: 18px;
   font-weight: bolder;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 2px;
+  border: 1px black solid;
 }
 
 body .container #M-unit1, body .container #M-unit2, body .container #M-unit3 {
@@ -79,6 +82,8 @@ body .container #M-unit1, body .container #M-unit2, body .container #M-unit3 {
   font-size: 16px;
   font-weight: bolder;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 2px;
+  border: 1px black solid;
 }
 
 body .container #result-btn {
@@ -119,5 +124,7 @@ body .container #result-box {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 4px;
+  border: 2px black solid;
 }
 /*# sourceMappingURL=style.css.map */
